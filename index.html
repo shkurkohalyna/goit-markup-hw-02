@@ -4,16 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="page-header">
       <nav>
-        <a href="">Web Studio</a>
+        <a href=".index.html" class="logo"
+          ><span class="logo-web">Web</span> Studio</a
+        >
         <ul class="site-nav">
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a href="" class="link current">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
         <address>
           <ul class="kompany-contacts">
@@ -35,21 +41,20 @@
     <main>
       <div>
         <section>
-          <h1>Зфективные решения для вашего бизнеса</h1>
-          <a href=""> Заказать услугу</a>
+          <h1 class="hero-title">Зфективные решения для вашего бизнеса</h1>
+          <a href="" class="button"> Заказать услугу</a>
         </section>
       </div>
       <section>
-        <!--Характеристики компании-->
-        <h2>Характеристики компании</h2>
-        <ul>
+        <!-- <h2>Характеристики компании</h2> -->
+        <ul class="preferences">
           <li>
             <img
               src="./images/rectangle3.png"
               alt="Внимание к деталям"
               width="270"
             />
-            <h3>Внимание к деталям</h3>
+            <h3 class="preferences-title">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -61,7 +66,7 @@
               alt="Пунктуальность"
               width="270"
             />
-            <h3>Пунктуальность</h3>
+            <h3 class="preferences-title">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -69,7 +74,7 @@
           </li>
           <li>
             <img src="./images/rectangle3.png" alt="Планирование" width="270" />
-            <h3>Планирование</h3>
+            <h3 class="preferences-title">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -81,7 +86,7 @@
               alt="Современные технологии"
               width="270"
             />
-            <h3>Современные технологии</h3>
+            <h3 class="preferences-title">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -90,8 +95,8 @@
         </ul>
       </section>
       <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+        <h2 class="section-title">Чем мы занимаемся</h2>
+        <ul class="list">
           <li>
             <a href="">Десктопные приложения</a>
             <img
@@ -115,8 +120,8 @@
         </ul>
       </section>
       <section>
-        <h2>Наша команда</h2>
-        <ul>
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="list">
           <li>
             <a href=""
               ><img src="./images/img.jpg" alt="Фото Джона Смита" width="270" />
@@ -155,7 +160,7 @@
             /></a>
             <h3>Robert Jakis</h3>
             <p>Marketing</p>
-            <ul>
+            <ul class="list">
               <li><a href="" aria-label="Instagram link">Instagram</a></li>
               <li><a href="" aria-label="Twitter link">Twitter</a></li>
               <li><a href="" aria-label="Facebook link">Facebook</a></li>
@@ -168,7 +173,7 @@
             /></a>
             <h3>Martin Doe</h3>
             <p>UI Designer</p>
-            <ul>
+            <ul class="list">
               <li><a href="" aria-label="Instagram link">Instagram</a></li>
               <li><a href="" aria-label="Twitter link">Twitter</a></li>
               <li><a href="" aria-label="Facebook link">Facebook</a></li>
@@ -178,8 +183,8 @@
         </ul>
       </section>
       <section>
-        <h2>Постоянные клиенты</h2>
-        <ul>
+        <h2 class="section-title">Постоянные клиенты</h2>
+        <ul class="list">
           <li>
             <a href=""><img src="./images/rectangle9.png" alt="" />box</a>
           </li>
@@ -201,10 +206,10 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <!--Контакты-->
       <div>
-        <a href="">Web Studio</a>
+        <a href=".index.html" class="logo"><span class="logo-web">Web</span> Studio</a>
         <address>
           <p>г. Киев, пр-т Леси Украинки, 26</p>
           <a href="mailto:info@example.com">info@example.com</a>
@@ -214,7 +219,7 @@
       <!--Присоединяйтесь-->
       <div>
         <p>присоединяйтесь</p>
-        <ul>
+        <ul class="list">
           <li><a href="" aria-label="Instagram link">Instagram</a></li>
           <li><a href="" aria-label="Twitter link">Twitter</a></li>
           <li><a href="" aria-label="Facebook link">Facebook</a></li>
@@ -223,7 +228,7 @@
       </div>
       <!--Подписка-->
       <div>
-        <b>Подпишитесь на рассылку</b>
+        <b class="button">Подпишитесь на рассылку</b>
       </div>
       <div>
         <p>2020 | Developed by GoIT Students</p>
